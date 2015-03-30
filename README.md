@@ -2,7 +2,7 @@
 vim plugin to automatically resize your vim splits as you move between them
 
 ## Overview
-Idea and implementation is taken from [this article](http://janneinosaka.blogspot.ru/2014/10/automatically-resize-vim-splits.html)
+Idea and implementation is taken from [this post](http://janneinosaka.blogspot.ru/2014/10/automatically-resize-vim-splits.html)
 
 ## Installation
 Just use anything you like: pathogen, vundle, neobundle, vim-plug, etc
