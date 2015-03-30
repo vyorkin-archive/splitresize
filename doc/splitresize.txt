@@ -1,13 +1,13 @@
-            _ _ _                _
-           | (_) |              (_)
-  ___ _ __ | |_| |_ _ __ ___ ___ _ _______
- / __| '_ \| | | __| '__/ _ \ __| |_  / _ \
- \__ \ |_) | | | |_| | |  __\__ \ |/ /  __/
- |___/ .__/|_|_|\__|_|  \___|___/_/___\___|
-     | |
-     |_|
+            _ _ _                _                          
+           | (_) |              (_)                         
+  ___ _ __ | |_| |_ _ __ ___ ___ _ _______                  
+ / __| '_ \| | | __| '__/ _ \ __| |_  / _ \                 
+ \__ \ |_) | | | |_| | |  __\__ \ |/ /  __/                 
+ |___/ .__/|_|_|\__|_|  \___|___/_/___\___|                 
+     | |                                                    
+     |_|                                                    
 
-automatically resize your vim splits as you move between them
+Automatically resize your vim splits as you move between them.
 
 ==============================================================================
 CONTENTS                                                *splitresize-contents*
@@ -25,21 +25,27 @@ There is only one function - |:SyntasticInfo|
 ==============================================================================
 2. Configuration                                   *splitresize-configuration*
 
+To change min/max rows/cols: >
+let g:splitresize_hmin = 60
+let g:splitresize_vmin = 15
+let g:splitresize_hmax = 80
+let g:splitresize_vmax = 40
+<
+
 If you want to disable default key mappings: >
 let g:splitresize_map_keys = 0
 <
 
-Defaults are these:
-
-<c-j> <c-w><c-j>
-<c-k> <c-w><c-k>
-<c-l> <c-w><c-l>
-<c-h> <c-w><c-h>
-
-If you want to change this, you could write something similar
-to how its actually defined: >
+Here is an example of how you can set yours: >
 nnoremap <silent><C-J> <C-W><C-J>:call Splitresize()<CR>
 nnoremap <silent><C-K> <C-W><C-K>:call Splitresize()<CR>
 nnoremap <silent><C-L> <C-W><C-L>:call Splitresize()<CR>
 nnoremap <silent><C-H> <C-W><C-H>:call Splitresize()<CR>
 <
+
+These are defaults:
+<c-j> <c-w><c-j>
+<c-k> <c-w><c-k>
+<c-l> <c-w><c-l>
+<c-h> <c-w><c-h>
+
