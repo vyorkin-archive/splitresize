@@ -10,11 +10,7 @@ Just use anything you like: pathogen, vundle, neobundle, vim-plug, etc
 ## Configuration
 `g:splitresize_map_keys` - enables default key mappings.
 
-Defaults are these:
-* `<C-J> <C-W><C-J>`
-* `<C-K> <C-W><C-K>`
-* `<C-L> <C-W><C-L>`
-* `<C-H> <C-W><C-H>`
+Defaults are these: `<C-J>`, `<C-K>`, `<C-L>`, `<C-H>`
 
 If you want to change this, you could write something similar to how its actually defined:
 ```

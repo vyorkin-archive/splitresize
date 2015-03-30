@@ -1,13 +1,4 @@
-            _ _ _                _                          
-           | (_) |              (_)                         
-  ___ _ __ | |_| |_ _ __ ___ ___ _ _______                  
- / __| '_ \| | | __| '__/ _ \ __| |_  / _ \                 
- \__ \ |_) | | | |_| | |  __\__ \ |/ /  __/                 
- |___/ .__/|_|_|\__|_|  \___|___/_/___\___|                 
-     | |                                                    
-     |_|                                                    
-
-Automatically resize your vim splits as you move between them.
+Splitresize: automatically resize your vim splits as you move between them.
 
 ==============================================================================
 CONTENTS                                                *splitresize-contents*
@@ -43,9 +34,5 @@ nnoremap <silent><C-L> <C-W><C-L>:call Splitresize()<CR>
 nnoremap <silent><C-H> <C-W><C-H>:call Splitresize()<CR>
 <
 
-These are defaults:
-<c-j> <c-w><c-j>
-<c-k> <c-w><c-k>
-<c-l> <c-w><c-l>
-<c-h> <c-w><c-h>
+These are defaults: <c-j> <c-k> <c-l> <c-h>
 
